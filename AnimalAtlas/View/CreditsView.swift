@@ -9,7 +9,23 @@ import SwiftUI
 
 struct CreditsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image("launch-screen-image")
+                .resizable()
+                .scaledToFit()
+            VStack(alignment: .leading, content: {
+                Text("""
+                     Developed by
+                     Abhyuday Nandikonda
+                     SwiftUI rocks 👨🏻‍💻
+                     """)
+                .font(.footnote)
+                .opacity(0.4)
+
+            })
+            .padding(.horizontal, 10)
+        }
+        .frame(height: 100)
     }
 }
 

@@ -40,6 +40,16 @@
 		54C4B8572B80257C0055DA62 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8562B80257C0055DA62 /* InsetFactView.swift */; };
 		54C4B8592B80277E0055DA62 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8582B80277E0055DA62 /* InsetMapView.swift */; };
 		54C4B85B2B802CB00055DA62 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B85A2B802CB00055DA62 /* ExternalWebLinkView.swift */; };
+		54C4B85D2B83EC550055DA62 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B85C2B83EC550055DA62 /* VideoModel.swift */; };
+		54C4B85F2B83EC970055DA62 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B85E2B83EC970055DA62 /* VideoListItemView.swift */; };
+		54C4B8612B83F2450055DA62 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8602B83F2450055DA62 /* VideoPlayerView.swift */; };
+		54C4B8642B83F3100055DA62 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8632B83F3100055DA62 /* VideoPlayerHelper.swift */; };
+		54C4B8662B83F68C0055DA62 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8652B83F68C0055DA62 /* LocationModel.swift */; };
+		54C4B8682B8400370055DA62 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8672B8400370055DA62 /* MapAnnotationView.swift */; };
+		54C4B86A2B84063C0055DA62 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B8692B84063C0055DA62 /* MotionAnimationView.swift */; };
+		54C4B86C2B8419DB0055DA62 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B86B2B8419DB0055DA62 /* AnimalGridItemView.swift */; };
+		54C4B86E2B8420E50055DA62 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B86D2B8420E50055DA62 /* CreditsView.swift */; };
+		54C4B8702B84231F0055DA62 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B86F2B84231F0055DA62 /* CenterModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +88,16 @@
 		54C4B8562B80257C0055DA62 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		54C4B8582B80277E0055DA62 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		54C4B85A2B802CB00055DA62 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+		54C4B85C2B83EC550055DA62 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		54C4B85E2B83EC970055DA62 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		54C4B8602B83F2450055DA62 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		54C4B8632B83F3100055DA62 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		54C4B8652B83F68C0055DA62 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		54C4B8672B8400370055DA62 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		54C4B8692B84063C0055DA62 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		54C4B86B2B8419DB0055DA62 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		54C4B86D2B8420E50055DA62 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		54C4B86F2B84231F0055DA62 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +130,7 @@
 		54C4B80C2B7FDAC20055DA62 /* AnimalAtlas */ = {
 			isa = PBXGroup;
 			children = (
+				54C4B8622B83F2F80055DA62 /* Utilities */,
 				54C4B8492B8014D30055DA62 /* Extension */,
 				54C4B8462B7FF7130055DA62 /* Model */,
 				54C4B8432B7FF5890055DA62 /* View */,
@@ -183,6 +204,12 @@
 				54C4B8562B80257C0055DA62 /* InsetFactView.swift */,
 				54C4B8582B80277E0055DA62 /* InsetMapView.swift */,
 				54C4B85A2B802CB00055DA62 /* ExternalWebLinkView.swift */,
+				54C4B85E2B83EC970055DA62 /* VideoListItemView.swift */,
+				54C4B8602B83F2450055DA62 /* VideoPlayerView.swift */,
+				54C4B8672B8400370055DA62 /* MapAnnotationView.swift */,
+				54C4B8692B84063C0055DA62 /* MotionAnimationView.swift */,
+				54C4B86B2B8419DB0055DA62 /* AnimalGridItemView.swift */,
+				54C4B86D2B8420E50055DA62 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +219,8 @@
 			children = (
 				54C4B8472B7FF7260055DA62 /* CoverImageModel.swift */,
 				54C4B84E2B801AE20055DA62 /* AnimalModel.swift */,
+				54C4B85C2B83EC550055DA62 /* VideoModel.swift */,
+				54C4B8652B83F68C0055DA62 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,8 +229,17 @@
 			isa = PBXGroup;
 			children = (
 				54C4B84A2B8014E70055DA62 /* CodableBundleExtension.swift */,
+				54C4B86F2B84231F0055DA62 /* CenterModifier.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		54C4B8622B83F2F80055DA62 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				54C4B8632B83F3100055DA62 /* VideoPlayerHelper.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,13 +336,23 @@
 				54C4B84F2B801AE20055DA62 /* AnimalModel.swift in Sources */,
 				54C4B8102B7FDAC20055DA62 /* ContentView.swift in Sources */,
 				54C4B8592B80277E0055DA62 /* InsetMapView.swift in Sources */,
+				54C4B8642B83F3100055DA62 /* VideoPlayerHelper.swift in Sources */,
 				54C4B83C2B7FF44E0055DA62 /* MapView.swift in Sources */,
 				54C4B85B2B802CB00055DA62 /* ExternalWebLinkView.swift in Sources */,
+				54C4B8682B8400370055DA62 /* MapAnnotationView.swift in Sources */,
 				54C4B80E2B7FDAC20055DA62 /* AnimalAtlasApp.swift in Sources */,
+				54C4B85D2B83EC550055DA62 /* VideoModel.swift in Sources */,
 				54C4B8402B7FF46C0055DA62 /* GalleryView.swift in Sources */,
+				54C4B8662B83F68C0055DA62 /* LocationModel.swift in Sources */,
+				54C4B86C2B8419DB0055DA62 /* AnimalGridItemView.swift in Sources */,
 				54C4B8552B80222F0055DA62 /* InsetGalleryView.swift in Sources */,
+				54C4B85F2B83EC970055DA62 /* VideoListItemView.swift in Sources */,
+				54C4B86E2B8420E50055DA62 /* CreditsView.swift in Sources */,
 				54C4B84B2B8014E70055DA62 /* CodableBundleExtension.swift in Sources */,
+				54C4B86A2B84063C0055DA62 /* MotionAnimationView.swift in Sources */,
+				54C4B8702B84231F0055DA62 /* CenterModifier.swift in Sources */,
 				54C4B8532B8020BF0055DA62 /* HeadingView.swift in Sources */,
+				54C4B8612B83F2450055DA62 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +501,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.learning.AnimalAtlas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,6 +532,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.learning.AnimalAtlas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
